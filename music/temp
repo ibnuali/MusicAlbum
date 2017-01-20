@@ -1,0 +1,19 @@
+<!--{% extends 'music/base.html' %}
+
+{% block isi %}
+    {% if all_albums %}
+    <h3> My Albums </h3>
+        <ul>
+            {% for album in all_albums %}
+            <li><a href="/music/{{ album.id }}/">{{ album.album_title }}</a></li> -->
+            <!-- music/detail = url
+                detail = music/detail/album.id
+                album.id = ambil id dari pk album
+            
+            <li><a href="{% url 'music:detail' album.id %}">{{ album.album_title }}</a></li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <h3>You don't have any album</h3>
+    {% endif %}
+{% endblock %} -->
